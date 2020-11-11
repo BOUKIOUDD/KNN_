@@ -41,10 +41,10 @@ mycursor.execute(
 iris = datasets.load_iris()
 
 # insertions
-#insert_list_iris(iris)
+insert_list_iris(iris)
 
 # Lecture
 result = read_iris()
 print(result)
 
-print(mydb)
+
